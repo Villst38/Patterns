@@ -1,0 +1,15 @@
+{
+    "name": "vadim/patterns",
+    "autoload": {
+        "psr-4": {
+            "Vadim\\Patterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "villst",
+            "email": "villst38.com@gmail.com"
+        }
+    ],
+    "require": {}
+}
