@@ -10,7 +10,7 @@ services:
       - ${NGINX_PORT}:80
 
   php-fpm:
-    image: php:8.1-fpm
+    build: ./docker/php/
     container_name: ${PROJECT_NAME}-php
     working_dir: /var/www/application
     volumes:
